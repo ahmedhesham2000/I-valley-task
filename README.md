@@ -21,7 +21,7 @@
 
 ## 1. Introduction
 
-This README document summarizes the completion of the task assigned by [Company Name]. The task involved the development of a management application using the BLoC architecture for state management, Dio for making API requests, and MVC (Model-View-Controller) as the architectural pattern. This document provides an overview of the project, the requirements fulfilled, and how to set up and use the application.
+This README document summarizes the completion of the task assigned by I-Valley. The task involved the development of a management application using the BLoC architecture for state management, Dio for making API requests, and MVC (Model-View-Controller) as the architectural pattern. This document provides an overview of the project, the requirements fulfilled, and how to set up and use the application.
 
 ---
 
