@@ -35,11 +35,7 @@ class AppCubit extends Cubit<AppState> {
       List<CarData> newData=List.from(I.map((e) => CarData.fromjson(e)));
       availableCars.addAll(newData);
       emit(AppGetAvilableCarsSuccessState());
-          // print(value.data)
-    }
-
-
-    ).catchError((error){
+    }).catchError((error){
       print(error.toString());
       emit(AppGetAvilableCarsErrorState(error: error.toString()));
     });

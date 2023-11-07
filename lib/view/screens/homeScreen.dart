@@ -90,12 +90,12 @@ class _HomeScreenState extends State<HomeScreen> {
             appBar: AppBar(
               title: const Text('السيارات المتاحة'),
               centerTitle: true,
-              actions: [
+              leading:
                 IconButton(
                   icon: const Icon(Icons.more_vert),
                   onPressed: () {},
                 ),
-              ],
+
             ),
             body: Padding(
               padding: const EdgeInsets.all(8.0),
